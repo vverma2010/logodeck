@@ -1,38 +1,68 @@
 .App {
   text-align: center;
+  background-image: url('./waves.jpg');
+  background-size: cover;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome-page{
+  height: 35vh;
+  width: 70vh;
+  margin-top: 14% ;
+  margin-left: 31%;
+  position: absolute;
+  border-radius: 10px;
+  border:1px solid yellowgreen;
+  color:yellowgreen;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  padding:10px;
 }
-
-.App-link {
-  color: #61dafb;
+.welcome-page .left{
+  padding:10px;
+  left: 0;
+  width:38%;
+  display: block;
+  font-size: 36px;
+  margin:auto;
+  font-weight:600;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome-page .right{
+  padding:10px;
+  right: 0;
+  width: 62%;
+  display: flexbox;
+  font-size: 36px;
+  margin:auto;
+  font-weight:600;
+}
+.sign-up{
+  font-size: 30px;
+  font-weight: 600;
+  padding:18px;
+  margin:7px;
+  background-color: yellowgreen;
+  border:none;
+  border-radius: 10px;
+}
+.sign-in{
+  font-size: 30px;
+  font-weight: 600;
+  padding:18px;
+  margin:7px;
+  background-color: yellowgreen;
+  border:none;
+  border-radius: 10px;
+}
+.sign-up:hover{
+  cursor: pointer;
+  background-color:#131819;
+  color:yellowgreen;
+}
+.sign-in:hover{
+  cursor: pointer;
+  background-color:#131819;
+  color:yellowgreen;
+}
+.sign-in:active{
+  border:none;
 }

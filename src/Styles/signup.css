@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    color:yellowgreen;
+}
+.login-container{
+    height:100vh;
+}
+
+.form{
+    width:45vh;
+    height:57vh;
+    /* margin: auto; */
+    margin: 10% 35%;
+    position: absolute;
+    padding:25px;
+    border:1px solid yellowgreen;
+    border-radius: 15px;
+    color:yellowgreen;
+    display: flexbox;
+}
+.form h1{
+    font-weight:900;
+    font-size: 48px ;
+    margin: 30px;
+}
+.form input{
+    background-color: #131819;
+    color:yellowgreen;
+    border:none;
+    padding:10px;
+    margin:20px;
+    font-size:25px;
+}
+.form input:focus{
+    border-bottom: 1px  solid yellowgreen; 
+    border-left: 1px solid yellowgreen;
+    outline: none;
+    border-radius: 5px;
+}
+.form button{
+    margin:10px;
+    margin-top: 20px;
+
+    width: 80%;
+    padding:6px 10px ;
+    font-size : 35px;
+    font-weight: 600;
+    border-radius: 6px;
+    outline:0;
+    color:blAck;
+    background-color:yellowgreen;
+    border:none;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.form button:active {
+    background-color:rgb(63, 82, 25);
+    color:rgb(224, 230, 219);
+}
+
+.form .redirection{
+    margin:5px;
+    display: inline-flex;
+}
+.form a{
+    color:aqua;
+}
