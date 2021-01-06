@@ -25,7 +25,7 @@
     margin: 30px;
 }
 .form input{
-    background-color: #131819;
+    background-color:#222222;
     color:yellowgreen;
     border:none;
     padding:10px;
@@ -37,6 +37,9 @@
     border-left: 1px solid yellowgreen;
     outline: none;
     border-radius: 5px;
+}
+.form input::placeholder{
+    color:rgba(170, 255, 0, 0.267);
 }
 .form button{
     margin:10px;

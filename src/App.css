@@ -43,6 +43,8 @@
   background-color: yellowgreen;
   border:none;
   border-radius: 10px;
+  color:#000000;
+
 }
 .sign-in{
   font-size: 30px;
@@ -52,6 +54,8 @@
   background-color: yellowgreen;
   border:none;
   border-radius: 10px;
+  color:#000000;
+
 }
 .sign-up:hover{
   cursor: pointer;
