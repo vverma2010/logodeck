@@ -10,6 +10,7 @@ class Login extends Component {
     this.state = {
       email: "",
       password: "",
+      isLoggedIn: false
     };
   }
   handleEmailChange = (e) => {
@@ -28,7 +29,9 @@ class Login extends Component {
       email: "abc1@gmail.com",
       password: "abc1",
     };
-
+    this.setState({
+      isLoggedIn:true,
+    })
     console.log("email", this.state.email);
     console.log("password", this.state.password);
     if (
